@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+body{font-family: 'Poppins', sans-serif;font-size:0.9rem;font-weight:400;color:#555;line-height:1.5rem;background:url(../images/bg.png) repeat; }
+body.header-open{padding-left:250px;min-width:0px;position:relative;display:block;  }
+
+h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif; }
+h2 {font-size:1.70rem;color:#333; }
+.h3, h3 {font-size:1.4rem;color:#333; }
+h4{font-size:1.2rem; }
+
+img{max-width:100%; }
+.sec-box{padding-top:70px;padding-bottom:70px; }
+
+/********************
+       header 
+*******************/
+.logo{padding:7px 0px;min-height:65px;line-height:65px; }
+.social{text-align:center; }
+.social ul{list-style:none outside none;margin:0px;padding:0px; }
+.social ul li{display:inline-block;width:40px;height:40px;line-height:34px;border:2px solid #00abed;border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%;text-align:center;  }
+.social ul li:hover a{color:#00abed; } 
+.social ul li:hover, .social ul li:hover i{transition:all ease-in-out 0.4s;-webkit-transition:all ease-in-out 0.4s;-moz-transition:all ease-in-out 0.4s; }
+.social ul li:hover{background:#00abed;border-color:#00abed; } 
+.social ul li:hover i{color:#fff;transform:rotate(360deg); }
+
+.container-fluid{width:94%;max-width:1300px;margin:0px auto; }
+.owl-stage{height:calc(100vh - 175px);margin:0;width:100%; }
+.owl-carousel .owl-item{width:100%;background:#fff;display:flex;font-size:18px;justify-content:center;text-align:center;flex-shrink:0;height:100%;position:relative; }
+.owl-carousel .owl-item img{height:100%;object-fit:cover;overflow:hidden;position:relative;width:100%;display:inline;}
+figure img{max-width:100%; }
+.banner figure{height:100%;object-fit:cover;overflow:hidden;position:relative;width:100%; }
+.banner .overlay{height:100%;left:0;position:absolute;top:0;width:100%;display:block;overflow:hidden;font-size:18px;text-align:center; }
+.banner .overlay .text-overlay{background:rgba(30, 30, 30, 0.5) none repeat scroll 0 0;display:table;height:100%;opacity:1;position:absolute;text-align:left; text-decoration:none;transition:all 0.5s ease-out 0s;width:100%;z-index:100;padding-left:10px;padding-right:10px;font-size:0.9rem; }
+.banner .overlay:hover .text-overlay{background:rgba(30, 30, 30, 0.1) none repeat scroll 0 0; }
+.banner .overlay .text-overlay .info{display:table-cell;height:100%;text-align:center;transition:transform 0.5s ease 0s, opacity 0.5s ease 0s;vertical-align:middle; width:100%; }
+.banner h3, .banner p{color:#fff; }
+.banner .button{padding:8px 20px;color:#fff;background:#e96161;border:2px solid #e96161;text-decoration:none; }
+.banner .button:hover{background:#f97676; }
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{position:absolute;top:45%;font-size:0px; }
+.owl-carousel .owl-nav .owl-next::before, .owl-carousel .owl-nav .owl-prev::before{position:absolute;font-family: "Font Awesome 5 Free";color:#fff;font-size:21px;left:5px; }
+.owl-carousel .owl-nav .owl-next::before{content:"\f061" }
+.owl-carousel .owl-nav .owl-prev::before{content:"\f060"; }
+.owl-carousel .owl-nav .owl-next{right:0px; }
+.owl-carousel .owl-nav .owl-prev{left:0px; }
+/***  social css  ***/
+.topbar{z-index:9; }
+.bottom-right, .bottom-right a{color:#666}.intro-f2 .bottom-right li{margin-left:15px; }
+.foot-nav a{color:#555; }
+.foot-nav i{color:#00abed; }
+
+
+.gallery a{position:relative;display:block; }
+.gallery a::after{position:absolute;content:'';left:0px;right:0px;top:0px;bottom:0px;transition:all ease-in-out 0.3s; }
+.gallery a:hover::after{background:rgba(0,0,0,0.5); }
+
+/********************
+       Footer 
+*******************/
+footer{background:url(../images/footer_pattern.png) repeat #000;padding-top:40px;    padding-bottom:20px; }
+
+/********************
+      End Footer 
+*******************/
+
+@media only screen and (min-width: 1240px){
+.header-open .body-view{max-width:1240px;}
+.body-view .container{max-width:1100px;margin:0px auto;}
+}
+ 
